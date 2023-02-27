@@ -13,6 +13,6 @@ A career development plan is a roadmap that outlines an individual's goals and o
 
 ### I have created several posts to help you plan your career development
 {% for post in site.posts %}   
-    # [{{ post.title }}]({{ post.url }})
-    **{{ post.date | date: "%B %e, %Y" }}** | {{ post.category }} | [{{ post.title }}]({{ post.url }}) <a href="http://kingbradleyfoo.github.com{{ post.url }}#disqus_thread"></a></small></p>            
+## [{{ post.title }}]({{ post.url }})
+Created on **{{ post.date | date: "%B %e, %Y" }}**            
 {% endfor %}
